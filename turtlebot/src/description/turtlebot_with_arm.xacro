@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<robot name="turtlenbot_with_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find turtlebot)/description/turtlebot/urdf/turtlebot3_waffle.urdf"/>
+<xacro:include filename="$(find turtlebot)/description/arm/urdf/turtlebot_arm.urdf.xacro"/>
+
+</robot>

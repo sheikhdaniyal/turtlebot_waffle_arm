@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: turtlebot
+    relative_path: src/description/arm/urdf/turtlebot_arm.urdf.xacro
+  srdf:
+    relative_path: config/turtlebot_arm.srdf
+  package_settings:
+    author_name: Daniyal Sheikh
+    author_email: 1daniyalsheikh1@gmail.com
+    generated_timestamp: 1686854853
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
